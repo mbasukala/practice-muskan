@@ -2,13 +2,12 @@ package com.musbas;
 
 public class Car {
 
-    private String engine;
-    private Integer tires;
+
+    private int tires;
     private int windows;
     private int doors;
 
-    public Car(String engine, Integer tires, int windows, int doors) {
-        this.engine = engine;
+    public Car(int tires, int windows, int doors) {
         this.tires = tires;
         this.windows = windows;
         this.doors = doors;
@@ -18,19 +17,11 @@ public class Car {
 
     }
 
-    public String getEngine() {
-        return engine;
-    }
-
-    public void setEngine(String engine) {
-        this.engine = engine;
-    }
-
-    public Integer getTires() {
+    public int getTires() {
         return tires;
     }
 
-    public void setTires(Integer tires) {
+    public void setTires(int tires) {
         this.tires = tires;
     }
 
@@ -49,6 +40,4 @@ public class Car {
     public void setDoors(int doors) {
         this.doors = doors;
     }
-
-
-}
+    }
